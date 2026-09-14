@@ -7,12 +7,14 @@ intimidation), with a self-critique pass and full run logging.
 ## Setup
 
 ```bash
-#This commented section is if you wanted to use Claude
+#This  section is if you wanted to use Claude
 #and an anthropic API key. Follow the commands below,
-#and use the aura_agent.py file listed in the claude
+#and use the aura_agent.py file listed in the Claude
 #folder:
-#pip install anthropic --break-system-packages
-#export ANTHROPIC_API_KEY=sk-...
+pip install anthropic --break-system-packages
+export ANTHROPIC_API_KEY=sk-...
+
+#This following code is for using Gemini, the system this program was built around.
 pip install google-generativeai --break-system-packages
 export GEMINI_API_KEY=...
 ```
